@@ -4,9 +4,7 @@
         {
             "Effect": "Allow",
             "Principal": {
-                "Service": [
-                    "eks.amazonaws.com"
-                ]
+                "AWS": "arn:aws:iam::790594634667:root"
             },
             "Action": "sts:AssumeRole"
         }
